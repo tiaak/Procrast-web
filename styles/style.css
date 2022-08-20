@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0
+}
+
+
+.clear {
+	clear: both;
+}
+
+header{
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+nav {
+	width: 100%;
+	background-color: whitesmoke;
+	padding: 10px 20px 5px 20px;
+	position: fixed;
+	opacity: 50%;
+	z-index: 999;
+}
+
+nav img {
+	height: 20px;
+}
+
+.jumbotron {
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.jumbotron img {
+	width: 100%;
+	justify-content: center;
+}
+
+.word {
+	padding: 100px;
+	position: absolute;
+	color: whitesmoke;
+	margin: 0 auto;
+}
+
+.word h1{
+	letter-spacing: 27px;
+	font-weight: bolder;
+	font-size: 4em;
+}
+
+.small {
+	font-weight: lighter;
+	margin-top: -70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.text1{
+	text-align: left;
+	margin-right: 450px;
+}
+
+.text2 {
+	text-align: right;
+	width: 250px;
+}
+
+
+main {
+	padding: 0 10px;
+	overflow: auto;
+	width: 90%; 
+	margin: 50px auto;
+}
+
+article {
+	padding: 15px;
+	border-radius: 20px;
+	box-shadow: 5px -5px 15px #aaa;
+	margin: 40px auto;
+	overflow: auto;
+}
+
+article:hover {
+	transform: scale(1.025);
+}
+
+article img {
+	margin-right: 20px;
+	border-radius: 20px;
+	float: left;
+}
+
+article h3 {
+	margin-top: -3px;
+}
+
+content {
+	box-sizing: border-box;
+	margin: 20px auto;
+	padding: 10px 20px;
+	border-radius: 20px;
+	box-shadow: 5px -5px 15px #aaa;
+	background-color: white;
+	float: left;
+	width: 70%;
+}
+
+aside {
+	float: right;
+	width: 25%;
+	text-align: center;
+	margin-left: 50px;
+}
+
+
+.profile {
+	padding: 15px;
+	border-radius: 20px;
+	box-shadow: 5px -5px 15px #aaa;
+	margin: 20px auto;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.profile img {
+	border-radius: 10px;
+}
+
+.panggilan {
+	margin-top: -20px;
+	font-weight: lighter;
+}
+
+.tipis{
+	font-weight: bolder;
+
+}
+
+
+.socmed img:hover {
+	transform: scale(1.05);
+}
+
+
+footer {
+	background-color: #312211;
+	color: whitesmoke;
+	padding: 20px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+	content,aside {
+		width: 100%;
+	}
+
+	.word h1 {
+		font-size: 30px;
+		letter-spacing: 15px;
+	}
+
+	.small {
+		font-weight: 5px;
+		display: inline-block;
+	}
+
+	.text1{
+		margin-right: 50px;
+		margin-top: -200px;
+	}
+
+	.text2 {
+		margin-top: -170px;
+		float: left;
+		text-align: left;
+		width: 250px;
+	}
+
+}
+
+@media screen and (max-width: 540px){
+	content,aside {
+		width: 100%;
+	}
+
+	.word h1 {
+		font-size: 18px;
+		letter-spacing: 5px;
+	}
+
+	.small {
+		font-size: 12px;
+	}
+
+	.text1{
+		margin-right: 50px;
+		margin-top: -110px;
+	}
+
+	.text2 {
+		margin-top: -80px;
+		float: left;
+		text-align: left;
+		width: 250px;
+	}
+
+	article h3 {
+		margin-top: 5px;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	article p, profile p{
+		font-size: 15px;
+	}
+
+	article img {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+
+}
+
+
+@media screen and (min-width: 375px) {}
+@media screen and (min-width: 411px) {}
+@media screen and (min-width: 540px) {}
+@media screen and (min-width: 768px) {}
+@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1440px) {}
+
+
+
+
+
+
