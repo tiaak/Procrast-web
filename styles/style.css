@@ -180,11 +180,11 @@ footer {
 
 	.text1{
 		margin-right: 50px;
-		margin-top: -200px;
+		//margin-top: -200px;
 	}
 
 	.text2 {
-		margin-top: -170px;
+		//margin-top: -170px;
 		float: left;
 		text-align: left;
 		width: 250px;
